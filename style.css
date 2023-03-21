@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-image: url('./wallpaper.jpg');
+    background-size: 100%;
+    margin: 0;
+ }
+
+
+
+
+ 
+ #monitor{
+    background-image: url('./comp.png');
+    position: absolute;
+    width: 353px;
+    height: 353px;
+    right: 0%;
+    background-size: 100%;
+ }
+ progress {
+    border-radius: 7px; 
+    width: 30%;
+    height: 22px;
+    margin-left: 35%;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+    position: absolute;
+  }
+  progress::-webkit-progress-bar {
+    background-color: yellow;
+    border-radius: 7px;
+    position: absolute;
+  }
+  progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );
+    position: absolute;
+  }
+.header{
+    width: 30%;
+    height: 8%;
+    position: absolute;
+    margin-top: 20px;
+    left: 30%;
+}
+#text{
+    margin-top: 0;
+    
+}
+#comp{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    margin-top: 15%;
+    left: 25%;
+
+}
+#sys{
+  background-image: url('./sys.png');
+  position: absolute;
+  width:350px;
+  height: 300px;
+  left: 0%;
+  top: 40px;
+  background-size: 100%;;
+}
+#foot{
+  width: 35%;
+  height: 8%;
+  position: absolute;
+  bottom: 0%;
+  left: 23%;
+}
+
+#education{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  right: 60%;
+  }
+#disk{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:50%;
+}
+#procesor{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:40%;
+}
+#wallet{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:30%;
+}
+#sales{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:20%;
+}
+#quest{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:10%;
+}
+#setting{
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  background-color: green;
+  right:0%;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+
+  width: 20em;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 200px;
+}
+
+
+.first{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color:pink;
+}
+
+.p{
+  width: 50%;
+  height: 20px;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 15px;
+}
+
+
+#Score{
+  background-color: #d3d3d3;
+  width: 20%;
+  height: 100%;
+  right: 0;
+  position: absolute;
+
+}
+.Score_text{
+  font-size: 20px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+#text{
+  background-color: gray;
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  top:2%;
+}
+#levelBox{
+  width: 155px;
+  height: 50px;
+  background-color: blue;
+  margin-top: 21px;
+  margin-left: 20px;
+  border-radius:8px ;
+  box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );
+}
+#levelBox span{
+  font-size: 2.5em;
+  text-align: center;
+}
